@@ -8,6 +8,7 @@ public class SignInPage {
 	public SignInPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		
-		
 	}
+	
+	@FindBy()
 }
