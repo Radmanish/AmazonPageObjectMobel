@@ -7,10 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 public class BuyAppleMobile {
 
 	
-	Actions action;
-	public LandingPage(WebDriver driver) {
-		PageFactory.initElements(driver, this);
-		action = new Actions (driver);
 		
 }
-}
+
