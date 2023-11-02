@@ -20,16 +20,7 @@ public class AllMobileBrands {
 		
 		Brand.click();
 	}
-	@FindBy(className="a-button-input")
-	private WebElemnt Buy;
-	public void cclick() {
-		
-		
-		
-	}
 	
-
-
 
 
 
