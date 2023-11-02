@@ -13,6 +13,9 @@ public class BuyMobileTest extends BaseTest {
 		landing.clickOnMobiles();
 		landing.mouseHoverMobileAccesories();
 		landing.clickOnAppleLink();
+		
+		
+		
 	}
 	
 }

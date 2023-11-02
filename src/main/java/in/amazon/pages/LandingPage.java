@@ -10,8 +10,7 @@ public class LandingPage {
 	Actions action;
 	public LandingPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
-		action = new Actions (driver);
-		
+		action = new Actions (driver);	
 	}
 	@FindBy(linkText ="Mobiles")
 	private WebElement mobiles;
