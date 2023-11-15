@@ -1,5 +1,11 @@
 package com.listeners;
 
+import java.util.HashMap;
+import java.util.Map;
+import com.aventstack.extentreports.service.ExtentService;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+
 public class ExtentTestManager {
 	
 	  private static Map<String, ExtentTest> classTestMap = new HashMap<>();
