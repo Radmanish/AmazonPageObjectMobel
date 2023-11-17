@@ -7,10 +7,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LandingPage {
+	
 	Actions action;
 	public LandingPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
-		action = new Actions (driver);	
+		action= new Actions(driver);
 	}
 	@FindBy(linkText ="Mobiles")
 	private WebElement mobiles;
@@ -30,5 +31,21 @@ public class LandingPage {
 		
 		appleLink.click();
 	}
+	@FindBy(id="nav-link-accountList")
+	private WebElement singInMenu;
 	
+	public void mousHoverHelloSignIn() {
+		
+		action.moveToElement(singInMenu).build().perform();
+	}
+	@FindBy(xpath="(//span[@class='nav-action-inner'])[1]")
+	private WebElement signInButton;
+	public void clickSingInButton() {
+		signInButton.click();	
+	
+	}
+	
+		
+		
+
 }
