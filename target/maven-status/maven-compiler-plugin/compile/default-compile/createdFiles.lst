@@ -1,0 +1,8 @@
+com\listeners\ExtentManager.class
+in\amazon\pages\ApplePhones.class
+in\amazon\pages\LandingPage.class
+com\listeners\TestListener.class
+in\amazon\pages\SignInPage.class
+in\amazon\pages\AllMobileBrands.class
+com\listeners\ExtentTestManager.class
+in\amazon\pages\BuyAppleMobile.class
