@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-20T21:17:36 EST" name="Suite" finished-at="2023-11-20T21:18:04 EST" duration-ms="27943">
+  <suite started-at="2023-11-20T22:39:46 EST" name="Suite" finished-at="2023-11-20T22:40:27 EST" duration-ms="40988">
     <groups>
     </groups>
-    <test started-at="2023-11-20T21:17:36 EST" name="Test" finished-at="2023-11-20T21:18:04 EST" duration-ms="27943">
+    <test started-at="2023-11-20T22:39:46 EST" name="Test" finished-at="2023-11-20T22:40:27 EST" duration-ms="40988">
       <class name="in.amazon.tests.SignInTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.amazon.tests.SignInTest@6c1a5b54]" started-at="2023-11-20T21:17:57 EST" name="launchApplication" finished-at="2023-11-20T21:18:02 EST" duration-ms="4550" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.amazon.tests.SignInTest@248e319b]" started-at="2023-11-20T22:40:11 EST" name="launchApplication" finished-at="2023-11-20T22:40:17 EST" duration-ms="5918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="singIn()[pri:0, instance:in.amazon.tests.SignInTest@6c1a5b54]" started-at="2023-11-20T21:18:02 EST" name="singIn" finished-at="2023-11-20T21:18:04 EST" duration-ms="1713" status="PASS">
+        <test-method signature="singIn()[pri:0, instance:in.amazon.tests.SignInTest@248e319b]" started-at="2023-11-20T22:40:17 EST" name="singIn" finished-at="2023-11-20T22:40:27 EST" duration-ms="10212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singIn -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.amazon.tests.SignInTest@6c1a5b54]" started-at="2023-11-20T21:18:04 EST" name="closeBrowser" finished-at="2023-11-20T21:18:04 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.amazon.tests.SignInTest@248e319b]" started-at="2023-11-20T22:40:27 EST" name="closeBrowser" finished-at="2023-11-20T22:40:27 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- in.amazon.tests.SignInTest -->
       <class name="in.amazon.tests.BuyMobileTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.amazon.tests.BuyMobileTest@f09733f]" started-at="2023-11-20T21:17:36 EST" name="launchApplication" finished-at="2023-11-20T21:17:42 EST" duration-ms="6509" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.amazon.tests.BuyMobileTest@7674f035]" started-at="2023-11-20T22:39:47 EST" name="launchApplication" finished-at="2023-11-20T22:39:55 EST" duration-ms="8634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="BuyMobileTest()[pri:0, instance:in.amazon.tests.BuyMobileTest@f09733f]" started-at="2023-11-20T21:17:42 EST" name="BuyMobileTest" finished-at="2023-11-20T21:17:57 EST" duration-ms="15111" status="PASS">
+        <test-method signature="BuyMobileTest()[pri:0, instance:in.amazon.tests.BuyMobileTest@7674f035]" started-at="2023-11-20T22:39:55 EST" name="BuyMobileTest" finished-at="2023-11-20T22:40:11 EST" duration-ms="16071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BuyMobileTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.amazon.tests.BuyMobileTest@f09733f]" started-at="2023-11-20T21:17:57 EST" name="closeBrowser" finished-at="2023-11-20T21:17:57 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.amazon.tests.BuyMobileTest@7674f035]" started-at="2023-11-20T22:40:11 EST" name="closeBrowser" finished-at="2023-11-20T22:40:11 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
